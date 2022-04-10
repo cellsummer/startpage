@@ -1,5 +1,7 @@
 # startpage
 
+Forked from [HeavyRain266/startpage](https://github.com/HeavyRain266/startpage)
+
 Yet another minimal startpage:
 - Font: Pragmata Pro (not included)
 - Theme: Nightfall
