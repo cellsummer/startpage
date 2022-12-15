@@ -14,3 +14,4 @@ Simply edit `scss/theme.scss` and setup favourite font and colors!
 ### Preview:
 
 ![img](preview-1.png)
+![img](preview-2.png)
