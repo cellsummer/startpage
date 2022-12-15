@@ -1,3 +1,5 @@
+@import url('https://unpkg.com/@rose-pine/palette@3.0.1/css/rose-pine.css')
+
 html {
   align-items: center;
   display: flex;
@@ -7,9 +9,11 @@ html {
 
 body {
   display: flex;
-  color: #dcd9c0;
-  background: #101010;
-  font-family: Pragmata Pro;
+  color: #e0def4; /* #dcd9c0; */
+  /* background: #232136; */
+  /* background: #101010; */
+  background: #000000;
+  font-family: Cascadia Code PL;
   margin-right: 9em;
   padding: 1em;
 }
@@ -41,7 +45,7 @@ h1 {
 h2 {
   font-size: 1.2em;
   font-weight: 600;
-  color: #525252;
+  color: #f6c177; /*#525252;*/
   grid-column: 1/-1;
   text-align: center;
   margin-bottom: 2.3em;
@@ -70,7 +74,7 @@ li:first-child {
 }
 
 a {
-  color: #525252;
+  color:  #6e6a86; /*#525252;*/
   font-size: 1.1em;
   text-decoration: none;
 }
