@@ -1,2 +1,4 @@
 .vscode
 scss/dist
+node_modules
+

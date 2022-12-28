@@ -1,3 +1,9 @@
+@import url('https://unpkg.com/@rose-pine/palette@3.0.1/css/rose-pine.css');
+
+body {
+	color: var(--rp-main-text);
+	background: var(--rp-main-base);
+}
 html {
   align-items: center;
   display: flex;
@@ -7,9 +13,11 @@ html {
 
 body {
   display: flex;
-  color: #dcd9c0;
-  background: #101010;
-  font-family: Pragmata Pro;
+  /* color: #dcd9c0; */
+  color: var(--rp-main-text);
+  /* background: #101010; */
+  background: var(--rp-main-base);
+  font-family: Ubuntu;
   margin-right: 9em;
   padding: 1em;
 }
@@ -61,7 +69,8 @@ li {
 
 li:first-child {
   display: inline-block;
-  color: #daa6c3;
+  /* color: #daa6c3; */
+  color: var(--rp-main-love);
   font-size: 1.5em;
   font-weight: 600;
   text-align: center;
@@ -70,12 +79,14 @@ li:first-child {
 }
 
 a {
-  color: #525252;
+  /* color: #525252; */
+  color: var(--rp-main-rose);
   font-size: 1.1em;
   text-decoration: none;
 }
 
 a:hover {
-  color: #e0db96;
+  /* color: #e0db96; */
+  color: var(--rp-main-pine);
   font-style: italic;
 }
